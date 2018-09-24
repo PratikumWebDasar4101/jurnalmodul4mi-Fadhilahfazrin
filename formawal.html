@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>6701170001</title>
 </head>
 <body>
-silakan isi disini
-
+	<h1>Selamat datang, silahkan isi data</h1>
+	<form action="proses.php" method="post" enctype="multipart/form-data">
+		<h3>Silahkan tambahkan foto anda</h3>
+		<input type="file" name="dokumen" value="dokumen">
+		<h3>Silahkan pilih hobi anda</h3>
+		<input type="checkbox" name="hobi[]" value="Membaca">Membaca<br>
+		<input type="checkbox" name="hobi[]" value="Menulis">Menulis<br>
+		<input type="checkbox" name="hobi[]" value="Menyanyi">Menyanyi<br>
+		<input type="checkbox" name="hobi[]" value="Menari">Menari<br>
+		<input type="checkbox" name="hobi[]" value="Traveling">Traveling<br>
+		<input type="checkbox" name="hobi[]" value="Olahraga">Olahraga<br>
+		<input type="submit" name="submit" value="submit">
+	</form>
 </body>
 </html>
